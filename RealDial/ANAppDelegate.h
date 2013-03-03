@@ -7,9 +7,16 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "ANDialView.h"
 
-@interface ANAppDelegate : UIResponder <UIApplicationDelegate>
+@interface ANAppDelegate : UIResponder <UIApplicationDelegate, ANDialViewDelegate> {
+    ANDialView * dialView;
+    UILabel * numberLabel;
+    UIButton * clearButton;
+}
 
-@property (strong, nonatomic) UIWindow *window;
+@property (strong, nonatomic) UIWindow * window;
+
+- (void)clearPressed:(id)sender;
 
 @end

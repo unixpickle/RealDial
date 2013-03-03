@@ -16,6 +16,10 @@
 		FA5D8A4A16E3994C005F0E33 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = FA5D8A4916E3994C005F0E33 /* Default.png */; };
 		FA5D8A4C16E3994C005F0E33 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FA5D8A4B16E3994C005F0E33 /* Default@2x.png */; };
 		FA5D8A4E16E3994C005F0E33 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FA5D8A4D16E3994C005F0E33 /* Default-568h@2x.png */; };
+		FA5D8A5616E3EA73005F0E33 /* ANDialView.m in Sources */ = {isa = PBXBuildFile; fileRef = FA5D8A5516E3EA73005F0E33 /* ANDialView.m */; };
+		FA5D8A5A16E3EB71005F0E33 /* background@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FA5D8A5716E3EB71005F0E33 /* background@2x.png */; };
+		FA5D8A5B16E3EB71005F0E33 /* dial@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FA5D8A5816E3EB71005F0E33 /* dial@2x.png */; };
+		FA5D8A5C16E3EB71005F0E33 /* foreground@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FA5D8A5916E3EB71005F0E33 /* foreground@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +36,11 @@
 		FA5D8A4916E3994C005F0E33 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		FA5D8A4B16E3994C005F0E33 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		FA5D8A4D16E3994C005F0E33 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		FA5D8A5416E3EA73005F0E33 /* ANDialView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ANDialView.h; sourceTree = "<group>"; };
+		FA5D8A5516E3EA73005F0E33 /* ANDialView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ANDialView.m; sourceTree = "<group>"; };
+		FA5D8A5716E3EB71005F0E33 /* background@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "background@2x.png"; sourceTree = "<group>"; };
+		FA5D8A5816E3EB71005F0E33 /* dial@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dial@2x.png"; sourceTree = "<group>"; };
+		FA5D8A5916E3EB71005F0E33 /* foreground@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "foreground@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +89,8 @@
 			children = (
 				FA5D8A4616E3994C005F0E33 /* ANAppDelegate.h */,
 				FA5D8A4716E3994C005F0E33 /* ANAppDelegate.m */,
+				FA5D8A5416E3EA73005F0E33 /* ANDialView.h */,
+				FA5D8A5516E3EA73005F0E33 /* ANDialView.m */,
 				FA5D8A3E16E3994C005F0E33 /* Supporting Files */,
 			);
 			path = RealDial;
@@ -88,6 +99,9 @@
 		FA5D8A3E16E3994C005F0E33 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				FA5D8A5716E3EB71005F0E33 /* background@2x.png */,
+				FA5D8A5816E3EB71005F0E33 /* dial@2x.png */,
+				FA5D8A5916E3EB71005F0E33 /* foreground@2x.png */,
 				FA5D8A3F16E3994C005F0E33 /* RealDial-Info.plist */,
 				FA5D8A4016E3994C005F0E33 /* InfoPlist.strings */,
 				FA5D8A4316E3994C005F0E33 /* main.m */,
@@ -155,6 +169,9 @@
 				FA5D8A4A16E3994C005F0E33 /* Default.png in Resources */,
 				FA5D8A4C16E3994C005F0E33 /* Default@2x.png in Resources */,
 				FA5D8A4E16E3994C005F0E33 /* Default-568h@2x.png in Resources */,
+				FA5D8A5A16E3EB71005F0E33 /* background@2x.png in Resources */,
+				FA5D8A5B16E3EB71005F0E33 /* dial@2x.png in Resources */,
+				FA5D8A5C16E3EB71005F0E33 /* foreground@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -167,6 +184,7 @@
 			files = (
 				FA5D8A4416E3994C005F0E33 /* main.m in Sources */,
 				FA5D8A4816E3994C005F0E33 /* ANAppDelegate.m in Sources */,
+				FA5D8A5616E3EA73005F0E33 /* ANDialView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
